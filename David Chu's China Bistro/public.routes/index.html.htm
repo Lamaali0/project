@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.davidchuschinabistro.com/index.html#/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="icon" href="https://www.davidchuschinabistro.com/images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
+    <link href="./David Chu&#39;s China Bistro 2_files/css" rel="stylesheet" type="text/css">
+    <link href="./David Chu&#39;s China Bistro 2_files/css(1)" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./David Chu&#39;s China Bistro 2_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./David Chu&#39;s China Bistro 2_files/restaurant.css">
+    <link rel="stylesheet" href="./David Chu&#39;s China Bistro 2_files/common.css">
+  <link type="text/css" rel="stylesheet" href="./David Chu&#39;s China Bistro 2_files/css2"></head>
+  <body ng-app="restaurant" ng-strict-di="" class="ng-scope">
+
+    <!-- Fixed position loading indicator -->
+    <loading class="loading-indicator ng-isolate-scope"><!-- ngIf: $ctrl.show --></loading>
+
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="https://www.davidchuschinabistro.com/index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="https://www.davidchuschinabistro.com/index.html"><h1>David Chu's China Bistro</h1></a>
+              <p>
+              <img src="./David Chu&#39;s China Bistro 2_files/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+              </p>
+            </div>
+
+            <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li id="navHomeButton" class="visible-xs">
+                <a href="https://www.davidchuschinabistro.com/index.html">
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+              <li id="navMenuButton" ui-sref-active="active" class="">
+                <a ui-sref="public.menu" href="https://www.davidchuschinabistro.com/index.html#/menu">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+              </li>
+              <li>
+                <a ui-sref="public.about" href="https://www.davidchuschinabistro.com/index.html#/about">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+              </li>
+              <li>
+                <a ui-sref="public.awards" href="https://www.davidchuschinabistro.com/index.html#/awards">
+                  <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:410-602-5008">
+                  <span>410-602-5008</span></a><div>* We Deliver</div>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+      <a class="btn" href="tel:410-602-5008">
+        <span class="glyphicon glyphicon-earphone"></span>
+        410-602-5008
+      </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+    <!-- uiView: --><ui-view class="ng-scope"><!--
+  Include stylesheet specific to the public site
+-->
+<link rel="stylesheet" href="./David Chu&#39;s China Bistro 2_files/public.css" class="ng-scope">
+
+<!-- uiView: --><ui-view class="ng-scope"><div id="main-content" class="container ng-scope">
+  <div class="jumbotron">
+    <img src="./David Chu&#39;s China Bistro 2_files/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+  </div>
+  <div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menu" href="https://www.davidchuschinabistro.com/index.html#/menu"><div id="menu-tile"><span>menu</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menuitems({category: &#39;SP&#39;})" href="https://www.davidchuschinabistro.com/index.html#/menu/SP">
+        <div id="specials-tile"><span>specials</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://www.google.com/maps/place/David+Chu&#39;s+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank">
+        <div id="map-tile">
+          <iframe src="./David Chu&#39;s China Bistro 2_files/embed.html" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          <span>map</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</ui-view>
+</ui-view>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+            Sun-Thurs: 11:15am - 10:00pm<br>
+            Fri: 11:15am - 2:30pm<br>
+            Saturday Closed
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+            7105 Reisterstown Road<br>
+            Baltimore, MD 21215
+            <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+            <hr class="visible-xs">
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+            <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+          </section>
+        </div>
+        <div class="text-center">
+          © Copyright David Chu's China Bistro 2016 |
+          <a ui-sref="admin.auth" href="https://www.davidchuschinabistro.com/index.html#/admin">Admin</a></div>
+      </div>
+    </footer>
+
+    <!-- Libs -->
+    <script src="./David Chu&#39;s China Bistro 2_files/jquery-2.1.4.min.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/bootstrap.min.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/angular.min.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/angular-ui-router.min.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/ng-file-upload-shim.min.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/ng-file-upload.min.js.تنزيل"></script>
+
+    <!-- Main Restaurant Module -->
+    <script src="./David Chu&#39;s China Bistro 2_files/restaurant.module.js.تنزيل"></script>
+
+    <!-- Common Module -->
+    <script src="./David Chu&#39;s China Bistro 2_files/common.module.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/loading.component.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/loading.interceptor.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu.service.js.تنزيل"></script>
+
+    <!-- Public Module -->
+    <script src="./David Chu&#39;s China Bistro 2_files/public.module.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/public.routes.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu-category.component.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu-items.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu-item.component.js.تنزيل"></script>
+
+    <!-- ADMIN SITE -->
+    <script src="./David Chu&#39;s China Bistro 2_files/admin.module.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/admin.routes.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/admin-auth.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/login.service.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/current-user.service.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/authredirector.service.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/auth.interceptor.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/login.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/category-list.component.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/category-items.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu-item-edit.controller.js.تنزيل"></script>
+    <script src="./David Chu&#39;s China Bistro 2_files/menu-item-admin.component.js.تنزيل"></script>
+
+
+  
+
+
+<span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template shadowrootmode="closed"><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap);
+*{border:0;box-sizing:border-box;font:inherit;font-family:"mcafeeOpenSans","Poppins",Helvetica,Arial,Arial,Helvetica,sans-serif;font-size:100%;margin:0;padding:0;vertical-align:baseline;outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,body{background-color:#f5f6fa;font-family:"Poppins",Helvetica,Arial,"mcafeeOpenSans",Arial,Helvetica,sans-serif;line-height:1;height:100%;width:100%}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}b{font-weight:bold}img{display:block}.dls__container{align-items:center;display:flex;margin:0 auto;margin-top:50px;position:relative}.dls__popup__expanded{align-items:center;overflow:hidden;border-radius:100px;cursor:pointer;display:flex;left:0;padding:15px;position:absolute;height:95px;width:383px;background-color:#fff;transition:all .3s ease-in-out}.dls__popup__expanded .dls__icon{height:65px;width:73px}.content{margin-left:12px}.content .content__images{display:flex;align-items:center;width:250px}.content .content__images .seperator__line{margin-left:5px;margin-right:10px}.content .content__images #dls_close_icon{cursor:pointer;margin-left:auto;margin-right:0px}.content p{font-family:"Poppins",Arial,Helvetica,sans-serif;font-weight:"400";font-size:14px;line-height:20px;margin-top:8px;color:#4258ff;width:250px;cursor:pointer}.shield{overflow:hidden;box-shadow:0px 2px 4px 0px rgba(33,41,52,.12),0px -1px 2px 0px rgba(0,0,0,.08);align-items:center;border-radius:100px;bottom:0;display:flex;height:95px;justify-content:center;position:absolute;right:0;width:383px;transition:all .3s ease-in-out}.shield__circle{display:flex;justify-content:center;align-items:center;width:55px;height:55px;background-color:#c01818;transition:all .6s ease-in-out .2s;z-index:1;opacity:0}
+
+/*# sourceMappingURL=../sourceMap/edge/css/download_scan_popup.css.map*/</style><div class="dls__container">
+  <div class="shield" style="background: transparent; opacity: 0.1; display: none;">
+    <div class="shield__circle" style="opacity: 1;">
+      <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/mcafee_logo_white.svg?secret=umh9lb" x-mcsrc="" id="dls_ballon_icon" x-mcsrcparsed="true">
+    </div>
+    <div class="dls__popup__expanded" style="opacity: 0;">
+      <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/download_scan_icon.svg?secret=umh9lb" x-mcsrc="" class="dls__icon" x-mcsrcparsed="true">
+      <div class="content">
+        <div class="content__images">
+          <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/mcafee_logo_red.svg?secret=umh9lb" x-mcsrc="" id="dls_mcafee_logo" x-mcsrcparsed="true">
+          <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/seperator_line.svg?secret=umh9lb" x-mcsrc="" class="seperator__line" x-mcsrcparsed="true">
+          <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/webadvisor.svg?secret=umh9lb" x-mcsrc="" x-mcsrcparsed="true">
+          <img src="chrome-extension://fdhgeoginicibhagdmblfikbgbkahibd/images/download_scan/close-outline.svg?secret=umh9lb" x-mcsrc="" id="dls_close_icon" x-mcsrcparsed="true">
+        </div>
+        <p id="download_scan_popup_expanded_descriptions">Your download's being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+.mc-interactive-balloon{position:absolute;right:-50px;bottom:8px;box-shadow:rgba(0,0,0,.12) 0px 0px 10px;height:40px;width:40px;background:#1671ee;border-radius:20px;display:flex;justify-content:center;align-items:center}
+
+/*# sourceMappingURL=../sourceMap/edge/css/interactive_balloon.css.map*/</style></template></div></body></html>
